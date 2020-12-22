@@ -38,7 +38,7 @@ Crystal.prototype.render = function(target) {
 
 var crystals = [new Crystal("red"), new Crystal("blue"), new Crystal("green")];
 
-var playRound = function() {
+const playRound = function() {
   var fragment = document.createDocumentFragment();
   var $score = document.createElement("p");
   targetScore = Math.floor(Math.random() * 50) + 25;
