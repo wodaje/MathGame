@@ -1,7 +1,7 @@
 const $root = document.querySelector("#root");
 
 let score;
-let targetScore;
+var targetScore;
 
 const makeGuess = () => {
   const $score = document.querySelector("#root p");
